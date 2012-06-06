@@ -1,0 +1,54 @@
+= form_tag action_searches_path do
+  %ul.search
+    %li.search_text
+      = label_tag :search_text
+      = text_field_tag :search_text, "", class: "domain_text"
+
+%div#hello
+
+%a.button{href: "#"} Submit
+
+- content_for(:javascripts) do
+  :javascript
+    $(document).ready(function() {
+      $('.domain_text').keyup(function(){
+        var text = /^[a-zA-Z]*$/;
+        console.log($(this).val());
+        if(text.test($(this).val())){
+          $(".domain_text").removeClass("invalid");
+          $('.button').show();
+        }
+        else{
+          $(".domain_text").addClass("invalid");
+          $('.button').hide();
+        }
+      });
+      
+      $('.button').click(function(){
+        $.ajax ({
+          url : "#{action_searches_path}",
+          data : {
+            search_text: $('.domain_text').val(),
+          },
+          type : "POST",
+          success : function(response){
+            var output = "";
+            console.log("Success");
+            console.log(response["domain"]);
+            $.each(response["domain"], function(index, value){
+              output += '<li class="domain">' + value + '</li>';
+            });
+            $('div#hello').append(output);
+            if(response["x"] == false){
+              $('.domain').addClass("invalid");
+            }
+            else{
+              $('.domain').removeClass("invalid");
+            }
+          },
+          error: function(response){
+            console.log("Failure");
+          }
+        });
+      })
+    });
