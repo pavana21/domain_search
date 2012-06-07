@@ -29334,3 +29334,2531 @@ Served asset /searches.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:19:30 +0530
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:45:30 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.5ms)
+Compiled jquery.ui.core.css  (2ms)  (pid 1582)
+Compiled jquery.ui.theme.css  (10ms)  (pid 1582)
+Compiled jquery.ui.autocomplete.css  (41ms)  (pid 1582)
+Compiled searches.css  (113ms)  (pid 1582)
+Compiled application.css  (218ms)  (pid 1582)
+Compiled jquery.js  (2ms)  (pid 1582)
+Compiled jquery_ujs.js  (0ms)  (pid 1582)
+Compiled jquery.ui.core.js  (1ms)  (pid 1582)
+Compiled jquery.ui.widget.js  (0ms)  (pid 1582)
+Compiled jquery.ui.position.js  (0ms)  (pid 1582)
+Compiled jquery.ui.autocomplete.js  (52ms)  (pid 1582)
+Compiled searches.js  (257ms)  (pid 1582)
+Compiled application.js  (549ms)  (pid 1582)
+Completed 200 OK in 951ms (Views: 950.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.core.css - 200 OK (14ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.autocomplete.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.theme.css - 200 OK (9ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /searches.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery_ujs.js - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.core.js - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.widget.js - 200 OK (17ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.position.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /jquery.ui.autocomplete.js - 200 OK (9ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /searches.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /application.js - 200 OK (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:45:32 +0530
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:45:54 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:45:55 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:46:00 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:00 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:46:03 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:03 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:46:17 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (25.0ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 116ms (Views: 0.4ms | ActiveRecord: 25.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:46:45 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:46:50 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:36 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:48:54 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 19ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:48:54 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (54.4ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:49:17 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:49:21 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (2.0ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:11 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:50:16 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.6ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:50:32 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 16ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:33 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:50:36 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:50:54 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:51:01 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.8ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:11 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:51:12 +0530
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:51:15 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (2.7ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:55:06 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:55:07 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery.ui.core.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery.ui.widget.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery.ui.position.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery.ui.autocomplete.js - 200 OK (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /searches.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 22:56:39 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 22:56:40 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 22:56:40 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 22:56:40 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 22:56:40 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 22:56:40 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 22:56:46 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:02:56 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:02:57 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:02:57 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:03:01 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 12ms (Views: 2.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:40 +0530
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:04:45 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:04:57 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:05:01 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.9ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (9.4ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:05:38 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:05:42 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.position.js - 200 OK (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /searches.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.autocomplete.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.autocomplete.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.widget.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:06:44 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:06:51 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:07:43 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:07:47 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.4ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.6ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:18 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:08:22 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:08:36 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:08:40 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"goog"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.com'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.net'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.co.in'
+  [1m[36mSearch Load (0.1ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'goog.org'[0m
+  [1m[35mSearch Load (0.1ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:09:02 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:02 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:02 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:02 +0530
+Served asset /searches.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:02 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:02 +0530
+Served asset /jquery.ui.position.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery.ui.autocomplete.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:09:03 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:09:13 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"satya"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.com'[0m
+Completed 500 Internal Server Error in 108ms
+
+NameError (undefined local variable or method `cc' for #<SearchesController:0x0000010169c600>):
+  app/controllers/searches_controller.rb:40:in `get_url_data'
+  app/controllers/searches_controller.rb:19:in `block in find_domain_name'
+  app/controllers/searches_controller.rb:13:in `each'
+  app/controllers/searches_controller.rb:13:in `find_domain_name'
+
+
+  Rendered /Users/pavana/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (44.0ms)
+  Rendered /Users/pavana/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/pavana/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:10:21 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:10:22 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:10:22 +0530
+Served asset /searches.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:10:22 +0530
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:10:31 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"satya"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.com'[0m
+Completed 500 Internal Server Error in 152ms
+
+NameError (undefined local variable or method `cc' for #<SearchesController:0x00000102772178>):
+  app/controllers/searches_controller.rb:40:in `get_url_data'
+  app/controllers/searches_controller.rb:19:in `block in find_domain_name'
+  app/controllers/searches_controller.rb:13:in `each'
+  app/controllers/searches_controller.rb:13:in `find_domain_name'
+
+
+  Rendered /Users/pavana/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/pavana/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/pavana/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /searches.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:11:25 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:11:31 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"satya"}
+  [1m[35mSearch Load (0.4ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.com'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (48.6ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:41:33 UTC +00:00], ["domain_name", "satya.com"], ["search_text", "satya"], ["updated_at", Thu, 07 Jun 2012 17:41:33 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.in'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:41:36 UTC +00:00], ["domain_name", "satya.in"], ["search_text", "satya"], ["updated_at", Thu, 07 Jun 2012 17:41:36 UTC +00:00]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.net'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:41:39 UTC +00:00], ["domain_name", "satya.net"], ["search_text", "satya"], ["updated_at", Thu, 07 Jun 2012 17:41:39 UTC +00:00]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.co.in'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:41:41 UTC +00:00], ["domain_name", "satya.co.in"], ["search_text", "satya"], ["updated_at", Thu, 07 Jun 2012 17:41:41 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.4ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'satya.org'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:41:46 UTC +00:00], ["domain_name", "satya.org"], ["search_text", "satya"], ["updated_at", Thu, 07 Jun 2012 17:41:46 UTC +00:00]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 14834ms (Views: 0.3ms | ActiveRecord: 64.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.autocomplete.js - 200 OK (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /searches.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:12:32 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/invalid.gif" for 127.0.0.1 at 2012-06-07 23:12:34 +0530
+Served asset /invalid.gif - 304 Not Modified (25ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:12:45 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"crypsis"}
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'crypsis.com'[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 07 Jun 2012 17:42:47 UTC +00:00], ["domain_name", "crypsis.com"], ["search_text", "crypsis"], ["updated_at", Thu, 07 Jun 2012 17:42:47 UTC +00:00]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'crypsis.in'[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'crypsis.net'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:42:51 UTC +00:00], ["domain_name", "crypsis.net"], ["search_text", "crypsis"], ["updated_at", Thu, 07 Jun 2012 17:42:51 UTC +00:00]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'crypsis.co.in'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'crypsis.org'[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Thu, 07 Jun 2012 17:42:55 UTC +00:00], ["domain_name", "crypsis.org"], ["search_text", "crypsis"], ["updated_at", Thu, 07 Jun 2012 17:42:55 UTC +00:00]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "searches".* FROM "searches" [0m
+Completed 200 OK in 9189ms (Views: 0.3ms | ActiveRecord: 10.2ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:16:18 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"helloworl"}
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'helloworl.com'
+  [1m[36mSearch Load (0.2ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'helloworl.in'[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'helloworl.net'
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'helloworl.co.in'[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'helloworl.org'
+  [1m[36mSearch Load (0.3ms)[0m  [1mSELECT "searches".* FROM "searches" [0m
+Completed 200 OK in 4180ms (Views: 0.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:16:33 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:16:34 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:34 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:16:34 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started POST "/searches/find_domain_name" for 127.0.0.1 at 2012-06-07 23:20:44 +0530
+Processing by SearchesController#find_domain_name as */*
+  Parameters: {"search_text"=>"hell"}
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'hell.com'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:50:46 UTC +00:00], ["domain_name", "hell.com"], ["search_text", "hell"], ["updated_at", Thu, 07 Jun 2012 17:50:46 UTC +00:00]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'hell.in'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:50:48 UTC +00:00], ["domain_name", "hell.in"], ["search_text", "hell"], ["updated_at", Thu, 07 Jun 2012 17:50:48 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'hell.net'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:50:51 UTC +00:00], ["domain_name", "hell.net"], ["search_text", "hell"], ["updated_at", Thu, 07 Jun 2012 17:50:51 UTC +00:00]]
+  [1m[36m (3.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'hell.co.in'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:50:53 UTC +00:00], ["domain_name", "hell.co.in"], ["search_text", "hell"], ["updated_at", Thu, 07 Jun 2012 17:50:53 UTC +00:00]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.2ms)[0m  SELECT "searches".* FROM "searches" WHERE "searches"."domain_name" = 'hell.org'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "searches" ("created_at", "domain_name", "search_text", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 07 Jun 2012 17:50:55 UTC +00:00], ["domain_name", "hell.org"], ["search_text", "hell"], ["updated_at", Thu, 07 Jun 2012 17:50:55 UTC +00:00]]
+  [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mSearch Load (0.3ms)[0m  SELECT "searches".* FROM "searches" 
+Completed 200 OK in 10730ms (Views: 0.3ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:27:50 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:28:12 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.1ms)
+WARNING on line 26 of /Users/pavana/projects/sample/domain_search/app/assets/stylesheets/searches.css.sass:
+This selector doesn't have any properties and will not be rendered.
+Compiled searches.css  (34ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /searches.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:32:55 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Compiled searches.css  (14ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 45ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /searches.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:02 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /searches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:04 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.3ms)
+Compiled searches.css  (15ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 101ms (Views: 100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /searches.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:36:17 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Compiled searches.css  (14ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /searches.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /searches.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:37:33 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (55.2ms)
+Compiled searches.css  (15ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 100ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /searches.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:09 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/invalid.gif" for 127.0.0.1 at 2012-06-07 23:38:12 +0530
+Served asset /invalid.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:38:22 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Compiled searches.css  (19ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /searches.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:23 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 23:38:31 +0530
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.haml within layouts/application (2.2ms)
+Compiled searches.css  (15ms)  (pid 1809)
+Compiled application.css  (4ms)  (pid 1809)
+Completed 200 OK in 102ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /searches.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.core.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.autocomplete.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /jquery.ui.autocomplete.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searches.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /searches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 23:38:32 +0530
+Served asset /application.js - 304 Not Modified (0ms)

@@ -1,4 +1,4 @@
-= form_tag action_searches_path do
+= form_tag find_domain_name_searches_path do
   %ul.search
     %li.search_text
       = label_tag :search_text
@@ -27,7 +27,7 @@
 
       $('.button').click(function(){
         $.ajax ({
-          url : "#{action_searches_path}",
+          url : "#{find_domain_name_searches_path}",
           data : {
             search_text: $('.domain_text').val(),
           },
@@ -38,19 +38,38 @@
             console.log("Success");
             console.log(response["domain"]);
             $.each(response["domain"], function(index, value){
-              x.push(value.split(".")[1]);
+              if(!(value.split(".").length > 2)){
+                x.push(value.split(".")[1]);
+              }
+              else {
+                x.push(value.split(".")[1] + "." + value.split(".")[2]);
+              }
+              
               console.log(x);
               output += '<li class=' + x[index] + '>' + value + '</li>';
             });
             $('div#hello').append(output);
             $.each(response["results"], function(index, value){
                 console.log(value);
+                console.log(x[index]);
+                
                 if(value == false){
-                  $('.' + x[index]).addClass("invalid");
+                  if(!(x[index].split(".").length > 1)){
+                    $('.' + x[index]).addClass("invalid");
+                  }
+                  else {
+                    $('.' + x[index].split(".")[0] + '\\' + '.' + x[index].split(".")[1]).addClass("invalid");
+                  }
                 }
                 else{
-                  console.log("." + x[index]);
-                  $('.' + x).removeClass("invalid");
+                  console.log(x[index].split("."));
+                  if(!(x[index].split(".").length > 1)){
+                    $('.' + x[index]).removeClass("invalid");
+                  }
+                  else {
+                    console.log($('.' + x[index].split(".")[0] + "\\" + '.' + x[index].split(".")[1]));
+                    $('.' + x[index].split(".")[0] + '\\' + '.' + x[index].split(".")[1]).removeClass("invalid");
+                  }
                 }
             });
           },

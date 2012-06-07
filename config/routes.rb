@@ -30,7 +30,7 @@ DomainSearch::Application.routes.draw do
   #     resources :comments, :sales
   resources :searches do
     collection do
-      post 'action'
+      post 'find_domain_name'
     end
   end
   #   end
