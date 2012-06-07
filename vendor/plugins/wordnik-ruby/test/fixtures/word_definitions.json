@@ -1,0 +1,143 @@
+[
+    {
+        "citations": [
+            {
+                "cite": "Laying aside their often rancorous debate over how best to preserve the Florida panther, state and federal wildlife officials, environmentalists, and independent scientists endorsed the proposal, and in 1995 the eight cats [female Texas cougars] were brought from Texas and released\u2026 .\n  Uprooted from the arid hills of West Texas, three of the imports have died, but the remaining five adapted to swamp life and have each given birth to at least one litter of kittens.", 
+                "source": "Mark Derr (N. Y. Times, Nov. 2, 1999, Science Times p. F2)."
+            }
+        ], 
+        "headword": "cat", 
+        "id": 3117123, 
+        "labels": [
+            {
+                "text": "(Zo\u00f6l.)", 
+                "type": "fld"
+            }
+        ], 
+        "notes": [
+            {
+                "pos": 0, 
+                "value": "\u261e The domestic cat includes many varieties named from their place of origin or from some peculiarity; as, the Angora cat; the Maltese cat; the Manx cat; the Siamese cat."
+            }
+        ], 
+        "partOfSpeech": "noun", 
+        "seqString": "1.", 
+        "sequence": "0", 
+        "text": "Any animal belonging to the natural family Felidae, and in particular to the various species of the genera Felis, Panthera, and Lynx. The domestic cat is Felis domestica. The European wild cat (Felis catus) is much larger than the domestic cat. In the United States the name wild cat is commonly applied to the bay lynx (Lynx rufus). The larger felines, such as the lion, tiger, leopard, and cougar, are often referred to as cats, and sometimes as big cats. See wild cat, and tiger cat."
+    }, 
+    {
+        "headword": "cat", 
+        "id": 3117124, 
+        "labels": [
+            {
+                "text": "(Naut.)", 
+                "type": "fld"
+            }
+        ], 
+        "partOfSpeech": "noun", 
+        "seqString": "2.", 
+        "sequence": "1"
+    }, 
+    {
+        "citations": [
+            {
+                "source": "Totten."
+            }
+        ], 
+        "headword": "cat", 
+        "id": 3117125, 
+        "partOfSpeech": "noun", 
+        "seqString": "2 (a)", 
+        "sequence": "2", 
+        "text": "A strong vessel with a narrow stern, projecting quarters, and deep waist. It is employed in the coal and timber trade."
+    }, 
+    {
+        "citations": [
+            {
+                "source": "Totten."
+            }
+        ], 
+        "headword": "cat", 
+        "id": 3117126, 
+        "partOfSpeech": "noun", 
+        "seqString": "2 (b)", 
+        "sequence": "3", 
+        "text": "A strong tackle used to draw an anchor up to the cathead of a ship."
+    }, 
+    {
+        "headword": "cat", 
+        "id": 3117127, 
+        "partOfSpeech": "noun", 
+        "seqString": "3.", 
+        "sequence": "4", 
+        "text": "A double tripod (for holding a plate, etc.), having six feet, of which three rest on the ground, in whatever position it is placed."
+    }, 
+    {
+        "headword": "cat", 
+        "id": 3117128, 
+        "partOfSpeech": "noun", 
+        "seqString": "4.", 
+        "sequence": "5", 
+        "text": "An old game"
+    }, 
+    {
+        "headword": "cat", 
+        "id": 3117129, 
+        "partOfSpeech": "noun", 
+        "seqString": "4 (a)", 
+        "sequence": "6", 
+        "text": "The game of tipcat and the implement with which it is played. See Tipcat."
+    }, 
+    {
+        "headword": "cat", 
+        "id": 3117130, 
+        "partOfSpeech": "noun", 
+        "seqString": "4 (b)", 
+        "sequence": "7", 
+        "text": "A game of ball, called, according to the number of batters, one old cat, two old cat, etc."
+    }, 
+    {
+        "exampleUses": [
+            {
+                "text": "British sailors feared the cat"
+            }
+        ], 
+        "headword": "cat", 
+        "id": 3117131, 
+        "partOfSpeech": "noun", 
+        "seqString": "5.", 
+        "sequence": "8", 
+        "text": "same as cat o' nine tails."
+    }, 
+    {
+        "headword": "cat", 
+        "id": 3117132, 
+        "partOfSpeech": "noun", 
+        "seqString": "6.", 
+        "sequence": "9", 
+        "text": "A catamaran."
+    }, 
+    {
+        "citations": [
+            {
+                "source": "Totten."
+            }
+        ], 
+        "exampleUses": [
+            {
+                "text": "to cat an anchor"
+            }
+        ], 
+        "headword": "cat", 
+        "id": 3117145, 
+        "labels": [
+            {
+                "text": "(Naut.)", 
+                "type": "fld"
+            }
+        ], 
+        "partOfSpeech": "verb-transitive", 
+        "sequence": "0", 
+        "text": "To bring to the cathead. See anchor."
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "display": "That mountain cat is a very confused young hunter, and he might not attack you the next time, and you might be able to dive out of the way again.", 
+        "documentId": 22330027, 
+        "exampleId": 281222695, 
+        "provider": {
+            "id": 711, 
+            "name": "wordnik"
+        }, 
+        "rating": 755.66016000000002, 
+        "scoreId": 3305513809, 
+        "title": "Timegod's World", 
+        "year": 1992
+    }, 
+    {
+        "display": "When a person who has worked hard and scored brilliantly in cat is rejected because of some scores in your 12th (any board in India anyways is based on rote learning) it is a pity.", 
+        "documentId": 14411375, 
+        "exampleId": 96214469, 
+        "provider": {
+            "id": 712, 
+            "name": "spinner"
+        }, 
+        "rating": 749.0, 
+        "scoreId": 3379638015, 
+        "url": "http://www.pagalguy.com/forum/showthread.php?p=1507312#post1507312", 
+        "year": 2009
+    }, 
+    {
+        "display": "Deng's innocuous-sounding dictum, \"it does not matter what color a cat is as long as it hunts mice,\" unleashed the greatest explosion of productivity and economic growth in history.", 
+        "documentId": 27945844, 
+        "exampleId": 469578821, 
+        "provider": {
+            "id": 711, 
+            "name": "wordnik"
+        }, 
+        "rating": 604.0, 
+        "scoreId": 5757021011, 
+        "title": "Eric Margolis: Remembering China's Great Helmsman", 
+        "url": "http://www.huffingtonpost.com/eric-margolis/remembering-chinas-great_b_303107.html", 
+        "year": 2009
+    }, 
+    {
+        "display": "But as the saying goes: \"When the cat is away, the mouse will play.\"", 
+        "documentId": 28195403, 
+        "exampleId": 510868572, 
+        "provider": {
+            "id": 711, 
+            "name": "wordnik"
+        }, 
+        "rating": 604.0, 
+        "scoreId": 6147758158, 
+        "title": "UN Questions Political Killings in Philippines", 
+        "url": "http://www.groundreport.com/Politics/UN-Questions-Political-Killings-in-Philippines/2898679", 
+        "year": 2009
+    }, 
+    {
+        "display": "To put it another way: you will never be able to convince me or my constituents that my cat is alive and dead at the same time.", 
+        "documentId": 27903438, 
+        "exampleId": 461831424, 
+        "provider": {
+            "id": 711, 
+            "name": "wordnik"
+        }, 
+        "rating": 604.0, 
+        "scoreId": 5699848585, 
+        "title": "John McQuaid: Michele Bachmann, Quantum Physicist", 
+        "url": "http://www.huffingtonpost.com/john-mcquaid/michele-bachmann-quantum_b_391440.html", 
+        "year": 2009
+    }
+]

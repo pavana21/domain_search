@@ -1,0 +1,74 @@
+{
+    "match": [
+        {
+            "count": 0, 
+            "wordstring": "an"
+        }, 
+        {
+            "count": 123840, 
+            "wordstring": "answered"
+        }, 
+        {
+            "count": 107873, 
+            "wordstring": "Answers"
+        }, 
+        {
+            "count": 93155, 
+            "wordstring": "analysts"
+        }, 
+        {
+            "count": 77270, 
+            "wordstring": "Announce"
+        }, 
+        {
+            "count": 77270, 
+            "wordstring": "Announces"
+        }, 
+        {
+            "count": 64722, 
+            "wordstring": "Analysis"
+        }, 
+        {
+            "count": 48628, 
+            "wordstring": "announces"
+        }, 
+        {
+            "count": 39803, 
+            "wordstring": "announcing"
+        }, 
+        {
+            "count": 33355, 
+            "wordstring": "anytime"
+        }, 
+        {
+            "count": 28886, 
+            "wordstring": "Analysts"
+        }, 
+        {
+            "count": 18554, 
+            "wordstring": "analyses"
+        }, 
+        {
+            "count": 18205, 
+            "wordstring": "Anniversary"
+        }, 
+        {
+            "count": 17082, 
+            "wordstring": "ancestors"
+        }, 
+        {
+            "count": 15551, 
+            "wordstring": "Animals"
+        }, 
+        {
+            "count": 15426, 
+            "wordstring": "Analytics"
+        }
+    ], 
+    "matches": 4845, 
+    "more": 4829, 
+    "searchTerm": {
+        "count": 0, 
+        "wordstring": "an"
+    }
+}

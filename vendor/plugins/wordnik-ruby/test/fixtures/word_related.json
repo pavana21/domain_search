@@ -1,0 +1,137 @@
+[
+    {
+        "relType": "hyponym", 
+        "wordstrings": [
+            "wild-cat"
+        ]
+    }, 
+    {
+        "relType": "equivalent", 
+        "wordstrings": [
+            "blind cat"
+        ]
+    }, 
+    {
+        "relType": "form", 
+        "wordstrings": [
+            "catted", 
+            "catting"
+        ]
+    }, 
+    {
+        "relType": "synonym", 
+        "wordstrings": [
+            "kitten", 
+            "<er>catamaran</er", 
+            "Angora", 
+            "rumpy", 
+            "mouser", 
+            "kitling", 
+            "Maltese", 
+            "bobcat", 
+            "puss", 
+            "tomcat", 
+            "tortoise-shell", 
+            "miauler", 
+            "gib", 
+            "tommy", 
+            "catling", 
+            "feline", 
+            "grimalkin", 
+            "kitty", 
+            "tabby", 
+            "kit", 
+            "baudrons", 
+            "pussy"
+        ]
+    }, 
+    {
+        "relType": "verb-form", 
+        "wordstrings": [
+            "cats", 
+            "catted", 
+            "catting"
+        ]
+    }, 
+    {
+        "relType": "cross-reference", 
+        "wordstrings": [
+            "chuckle-headed cat", 
+            "to rain cats and dogs", 
+            "florida cat", 
+            "chartreuse cat", 
+            "yellow cat", 
+            "gay cat", 
+            "cat of the mediterranean", 
+            "malay cat", 
+            "tortoise-shell cat", 
+            "one old cat", 
+            "to let the old cat die", 
+            "spotted cat", 
+            "spanish cat", 
+            "a cat in the pan", 
+            "siamese cat", 
+            "persian cat", 
+            "to cat and fish", 
+            "brown cat", 
+            "pied cat", 
+            "a cat in the meal", 
+            "laugh", 
+            "to turn a cat-in-pan", 
+            "cat's auricle", 
+            "blue cat", 
+            "maltese cat", 
+            "angora cat", 
+            "chinese cat", 
+            "russian cat", 
+            "cat and dog", 
+            "thieves' cat", 
+            "bashaw cat", 
+            "schuylkill cat", 
+            "great forktailed cat", 
+            "to bell the cat", 
+            "manx cat", 
+            "potomac cat", 
+            "to grin like a cheshire cat", 
+            "to let the cat out of the bag", 
+            "flat-headed cat", 
+            "opelousas cat", 
+            "little yellow cat", 
+            "sacramento cat", 
+            "mississippi cat"
+        ]
+    }, 
+    {
+        "relType": "same-context", 
+        "wordstrings": [
+            "bear", 
+            "rabbit", 
+            "monster", 
+            "elephant", 
+            "fish", 
+            "one", 
+            "rat", 
+            "kid", 
+            "pig", 
+            "snake", 
+            "mother", 
+            "wolf", 
+            "baby", 
+            "dog", 
+            "boy", 
+            "monkey", 
+            "deer"
+        ]
+    }, 
+    {
+        "relType": "variant", 
+        "wordstrings": [
+            "wild-cat", 
+            "cat o' nine tails", 
+            "tiger cat", 
+            "tipcat", 
+            "catamaran", 
+            "anchor"
+        ]
+    }
+]

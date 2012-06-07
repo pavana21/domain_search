@@ -11,6 +11,7 @@
 - content_for(:javascripts) do
   :javascript
     $(document).ready(function() {
+    
       $('.domain_text').keyup(function(){
         var text = /^[a-zA-Z]*$/;
         console.log($(this).val());
@@ -23,7 +24,7 @@
           $('.button').hide();
         }
       });
-      
+
       $('.button').click(function(){
         $.ajax ({
           url : "#{action_searches_path}",
@@ -33,18 +34,25 @@
           type : "POST",
           success : function(response){
             var output = "";
+            var x = [];
             console.log("Success");
             console.log(response["domain"]);
             $.each(response["domain"], function(index, value){
-              output += '<li class="domain">' + value + '</li>';
+              x.push(value.split(".")[1]);
+              console.log(x);
+              output += '<li class=' + x[index] + '>' + value + '</li>';
             });
             $('div#hello').append(output);
-            if(response["x"] == false){
-              $('.domain').addClass("invalid");
-            }
-            else{
-              $('.domain').removeClass("invalid");
-            }
+            $.each(response["results"], function(index, value){
+                console.log(value);
+                if(value == false){
+                  $('.' + x[index]).addClass("invalid");
+                }
+                else{
+                  console.log("." + x[index]);
+                  $('.' + x).removeClass("invalid");
+                }
+            });
           },
           error: function(response){
             console.log("Failure");

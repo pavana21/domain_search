@@ -1,0 +1,14 @@
+[
+    {
+        "createdAt": "2010-05-27T20:40:11.000+0000", 
+        "description": "a trip to the zoo", 
+        "id": 25607, 
+        "name": "animals", 
+        "numberWordsInList": 3, 
+        "permalinkId": "animals--2", 
+        "type": "PUBLIC", 
+        "updatedAt": "2010-05-27T20:40:11.000+0000", 
+        "userId": 1234567, 
+        "userName": "test_user"
+    }
+]

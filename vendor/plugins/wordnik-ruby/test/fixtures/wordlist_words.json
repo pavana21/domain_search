@@ -1,0 +1,26 @@
+[
+    {
+        "createdAt": "2010-05-27T20:40:35.000+0000", 
+        "numberCommentsOnWord": 2, 
+        "numberLists": 25, 
+        "userId": 1234567, 
+        "userName": "test_user", 
+        "wordstring": "giraffe"
+    }, 
+    {
+        "createdAt": "2010-05-27T20:40:29.000+0000", 
+        "numberCommentsOnWord": 14, 
+        "numberLists": 54, 
+        "userId": 1234567, 
+        "userName": "test_user", 
+        "wordstring": "monkey"
+    }, 
+    {
+        "createdAt": "2010-05-27T20:40:23.000+0000", 
+        "numberCommentsOnWord": 9, 
+        "numberLists": 73, 
+        "userId": 1234567, 
+        "userName": "test_user", 
+        "wordstring": "cat"
+    }
+]
