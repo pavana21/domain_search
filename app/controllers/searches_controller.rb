@@ -15,17 +15,14 @@ class SearchesController < ApplicationController
       @domain_names << "#{@domain + @cc}"
       if(Search.where(domain_name: "#{@domain + @cc}").length > 0) #checks whether domain exists in database or not
         @flag << true
-        puts @flag
       else
         get_url_data
         puts @result
         if @result["WhoisRecord"].nil? || @result["WhoisRecord"]["dataError"]
           @flag << false
-          puts @flag
         else
           @search = Search.create(search_text: params[:search_text], domain_name: "#{@domain + @cc}")
           @flag << true
-          puts @flag
         end
       end
     end
